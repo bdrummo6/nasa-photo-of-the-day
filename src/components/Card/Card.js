@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Card = (props) => {
-	const Card =styled.div`
+	const Card = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -11,7 +11,7 @@ const Card = (props) => {
         color: silver;  
         font-weight: bold;
         margin: 0 auto;
-        border-radius: 2%;  
+        border-radius: 2%;
         border: 3px solid navy;
     `;
 
@@ -26,6 +26,7 @@ const Card = (props) => {
 
 	const About = styled.div`
         width: 90%;
+        font-size: 1.1rem;
         margin: 0 auto;
         padding: 10px;
     `;
@@ -40,10 +41,11 @@ const Card = (props) => {
 		  display: block;
 		  alignment: center;
 		  margin: auto 0;
-        width: 75%;
+        width: 85%;
+        height: 600px;
         padding-top: 10px;
     `;
-	
+
 	return (
 		<Card>
 			<Date>{props.date}</Date>
@@ -56,4 +58,5 @@ const Card = (props) => {
 };
 
 export default Card;
+
 
