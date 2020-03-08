@@ -33,10 +33,10 @@ This project was put together using create-react-app (CRA). You will not need to
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge Branch into master (student's Repository).
+- [X] Submit a Pull-Request to merge Branch into master (student's Repository).
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [X] Do your magic!
 
 # _Project - NASA APOD - Part I_
 
@@ -66,7 +66,7 @@ Follow these steps for completing your project.
 - [X] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and read through the docs to see how to make the API call.
 - [X] You don't _need_ an API key. However you may need one if you exceed the API request limits.
 - [X] Using the endpoint given, fetch the data using `axios`.
-- [ ] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
+- [X] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
 - [X] Before you add your data to state, make sure your effect hook has a dependency array (probably empty, since we don't want this effect synced up to any state/props), otherwise you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to use a real API_KEY.**
 
 DEMO KEY rate limits:
