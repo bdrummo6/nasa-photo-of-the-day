@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Photo = (props) => {
+const Card = (props) => {
 	const Card =styled.div`
         display: flex;
         flex-direction: column;
@@ -55,5 +55,5 @@ const Photo = (props) => {
 	)
 };
 
-export default Photo;
+export default Card;
 
