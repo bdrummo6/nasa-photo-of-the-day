@@ -18,7 +18,7 @@ const Heading = (props) => {
 
 	return (
 		<Container>
-			<Title>NASA Photo the Day!</Title>
+			<Title>NASA Photo of the Day!</Title>
 		</Container>
 	)
 };
