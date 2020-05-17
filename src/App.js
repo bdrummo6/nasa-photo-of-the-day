@@ -19,6 +19,7 @@ function App() {
          })
    }, []);
 
+   document.title = 'NASA Photo of the Day';
 
    return (
       <div className="app">
